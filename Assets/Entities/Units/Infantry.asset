@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Infantry
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: 1792ad3569430f649883f410b09f6170, type: 3}
+  description: Average Food soldier, cheap and sturdy.
+  allyImage: {fileID: 21300000, guid: 6e45d74d01b1fd648aa28c3a0b87d6b0, type: 3}
+  enemyImage: {fileID: 21300000, guid: b27b40cd5896fe44f84edf4c4e511c08, type: 3}
+  imageScale: 1
+  sellable: 1
+  attackSound: SoftSwing
+  deathSound: 
+  upgradeSound: 
+  onSpawn: 2
+  onKill: 3
+  onDeath: 4
+  onUpgrade: 5
+  onSell: 6
+  levels:
+  - health: 10
+    damage: 5
+    attackSpeed: 1
+    attackRange: 2
+    speed: 5
+    cost: 1
+  - health: 15
+    damage: 7
+    attackSpeed: 1.5
+    attackRange: 2
+    speed: 5
+    cost: 1
+  - health: 20
+    damage: 10
+    attackSpeed: 2
+    attackRange: 2
+    speed: 10
+    cost: 2

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Zog the Unseen
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: 000818b1b80b3994cb77ee2ee4473d01, type: 3}
+  description: Zog began life in an unfortunate manner. He was an orphan stealing
+    food just in order to survive. He ended up joining a local gang to try and find
+    stability but only found himself doing dirty work. He wanted to quit, but this
+    was all he knew how to do.
+  allyImage: {fileID: 21300000, guid: 713925d87a26c5c469710d002322aac2, type: 3}
+  enemyImage: {fileID: 21300000, guid: 713925d87a26c5c469710d002322aac2, type: 3}
+  imageScale: 1
+  sellable: 0
+  attackSound: SoftSwing
+  deathSound: 
+  upgradeSound: 
+  onSpawn: 48
+  onKill: 49
+  onDeath: 50
+  onUpgrade: 0
+  onSell: 0
+  levels:
+  - health: 1
+    damage: 20
+    attackSpeed: 5
+    attackRange: 1
+    speed: 25
+    cost: 20

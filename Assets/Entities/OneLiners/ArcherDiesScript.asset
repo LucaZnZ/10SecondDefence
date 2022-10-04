@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230a4332f7b14b20bfadd86756a734c5, type: 3}
+  m_Name: ArcherDiesScript
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: c07fc5452524c26448ef627af55df9bb, type: 3}
+  oneLinerEvent: 14
+  lines:
+  - "Why have the winds forsaken us?\r"
+  - "No! Now it\u2019s my skull that has decorated your weapon\u2026\r"
+  - "How could I have missed!?\r"
+  - "Your accuracy was impressive..\r"
+  - Laid to rest with bow in hand, nothing more fitting.

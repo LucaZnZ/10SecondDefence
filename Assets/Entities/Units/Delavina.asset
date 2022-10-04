@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Delavina
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: 23cfd7d45b8f07f43b030c431e062ac1, type: 3}
+  description: The most beautiful and lethal woman in all of Itmartashia. She is
+    a contract killer and never fails to get the job done. None can resist her feminine
+    charms.
+  allyImage: {fileID: 21300000, guid: d99395f9eabe2e04283856f895713a5b, type: 3}
+  enemyImage: {fileID: 21300000, guid: d99395f9eabe2e04283856f895713a5b, type: 3}
+  imageScale: 1
+  sellable: 0
+  attackSound: Laser
+  deathSound: 
+  upgradeSound: 
+  onSpawn: 36
+  onKill: 37
+  onDeath: 38
+  onUpgrade: 0
+  onSell: 0
+  levels:
+  - health: 30
+    damage: 5
+    attackSpeed: 2
+    attackRange: 5
+    speed: 1
+    cost: 15

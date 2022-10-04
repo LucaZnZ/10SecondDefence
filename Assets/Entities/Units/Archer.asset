@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: 1b2566828b86f40489a0d363ce9f734a, type: 3}
+  description: Soldiers that prefer to fight at a distance and their accuracy with
+    the bow do the talking.
+  allyImage: {fileID: 21300000, guid: 6f6547ac384f0ca4791c534e61b0ece0, type: 3}
+  enemyImage: {fileID: 21300000, guid: ac8eb476ca278a24d90e8aecfd8b57d6, type: 3}
+  imageScale: 1
+  sellable: 1
+  attackSound: Arrow
+  deathSound: 
+  upgradeSound: Upgrade
+  onSpawn: 12
+  onKill: 13
+  onDeath: 14
+  onUpgrade: 15
+  onSell: 16
+  levels:
+  - health: 5
+    damage: 8
+    attackSpeed: 0.2
+    attackRange: 5
+    speed: 8
+    cost: 2
+  - health: 10
+    damage: 12
+    attackSpeed: 0.3
+    attackRange: 10
+    speed: 10
+    cost: 1
+  - health: 15
+    damage: 18
+    attackSpeed: 0.5
+    attackRange: 15
+    speed: 15
+    cost: 3

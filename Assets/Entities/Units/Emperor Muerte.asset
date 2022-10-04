@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Emperor Muerte
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: 9f991120bfff7824e8acc30e70c5995b, type: 3}
+  description: "Once a humble and kind neighboring king, was possessed and his body
+    became the host of an extremely powerful demon. It began by conquering the neighboring
+    kingdom of Rolan but its hunger and desire wasn\u2019t satisfied. It kept conquering
+    and vanquishing until the last kingdom was in his sights. World DOmination was
+    now within his grasp."
+  allyImage: {fileID: 21300000, guid: 936ec82efc68d7b4881e4768bcc0e453, type: 3}
+  enemyImage: {fileID: 21300000, guid: 936ec82efc68d7b4881e4768bcc0e453, type: 3}
+  imageScale: 1
+  sellable: 0
+  attackSound: Explosion
+  deathSound: 
+  upgradeSound: 
+  onSpawn: 39
+  onKill: 40
+  onDeath: 41
+  onUpgrade: 0
+  onSell: 0
+  levels:
+  - health: 300
+    damage: 10
+    attackSpeed: 2
+    attackRange: 2
+    speed: 5
+    cost: 30

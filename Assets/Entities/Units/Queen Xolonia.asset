@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Queen Xolonia
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: 52b441ed3f89b6f4eaf54d0995ac1d67, type: 3}
+  description: A young princess who ascended to the throne after her father was slain
+    in battle. She summoned the knight-commander (you, the player) in hopes of saving
+    not just her own kingdom, but the world itself and restoring it to its once peaceful
+    ways.
+  allyImage: {fileID: 21300000, guid: 4e3158385699a654f9613e31d222fdb0, type: 3}
+  enemyImage: {fileID: 21300000, guid: 4e3158385699a654f9613e31d222fdb0, type: 3}
+  imageScale: 1
+  sellable: 0
+  attackSound: Laser
+  deathSound: 
+  upgradeSound: 
+  onSpawn: 51
+  onKill: 52
+  onDeath: 53
+  onUpgrade: 0
+  onSell: 0
+  levels:
+  - health: 1
+    damage: 10
+    attackSpeed: 4
+    attackRange: 10
+    speed: 10
+    cost: 20

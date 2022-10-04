@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Castle
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: f96f8c39529e4cd44aeb77b78b3cd3c4, type: 3}
+  description: Your Castle, defend it at all cost!
+  allyImage: {fileID: 21300000, guid: bb702be370d7974469f1f872cf16f2ff, type: 3}
+  enemyImage: {fileID: 21300000, guid: bb702be370d7974469f1f872cf16f2ff, type: 3}
+  imageScale: 5
+  sellable: 0
+  attackSound: Arrow
+  deathSound: 
+  upgradeSound: Fanfare
+  onSpawn: 0
+  onKill: 30
+  onDeath: 32
+  onUpgrade: 31
+  onSell: 32
+  levels:
+  - health: 100
+    damage: 0
+    attackSpeed: 0
+    attackRange: 0
+    speed: 0
+    cost: 0
+  - health: 250
+    damage: 2
+    attackSpeed: 1
+    attackRange: 5
+    speed: 0
+    cost: 10
+  - health: 500
+    damage: 5
+    attackSpeed: 1.5
+    attackRange: 10
+    speed: 0
+    cost: 10

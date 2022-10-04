@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: be55ac54ec802a2439f2589dfa015f41, type: 3}
+  description: Soldiers blessed in the arts of magic. Using the mana that surrounds
+    them to harness and channel bolts of mana but they are glass cannons.
+  allyImage: {fileID: 21300000, guid: 7f9edab93aff2ce4584d954933261299, type: 3}
+  enemyImage: {fileID: 21300000, guid: 443e876b5ebe5ec46a820aaef8db66b2, type: 3}
+  imageScale: 1
+  sellable: 1
+  attackSound: Laser
+  deathSound: 
+  upgradeSound: Upgrade
+  onSpawn: 17
+  onKill: 18
+  onDeath: 19
+  onUpgrade: 20
+  onSell: 21
+  levels:
+  - health: 2
+    damage: 10
+    attackSpeed: 0.2
+    attackRange: 7
+    speed: 3
+    cost: 3
+  - health: 5
+    damage: 15
+    attackSpeed: 0.4
+    attackRange: 10
+    speed: 5
+    cost: 2
+  - health: 10
+    damage: 25
+    attackSpeed: 0.6
+    attackRange: 12
+    speed: 7
+    cost: 4

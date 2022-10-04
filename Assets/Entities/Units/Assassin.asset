@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Assassin
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: d9fd13580f1c91b449f1e68c492e0310, type: 3}
+  description: The sneaky silent troops.
+  allyImage: {fileID: 21300000, guid: c8cb139a837445c42a445bda07a0caf8, type: 3}
+  enemyImage: {fileID: 21300000, guid: ae5ce6abd8f445e49bc284670c0a7cec, type: 3}
+  imageScale: 1
+  sellable: 1
+  attackSound: SoftSwing
+  deathSound: 
+  upgradeSound: Upgrade
+  onSpawn: 7
+  onKill: 8
+  onDeath: 9
+  onUpgrade: 10
+  onSell: 11
+  levels:
+  - health: 1
+    damage: 5
+    attackSpeed: 2
+    attackRange: 1
+    speed: 10
+    cost: 2
+  - health: 5
+    damage: 7
+    attackSpeed: 3
+    attackRange: 1
+    speed: 15
+    cost: 1
+  - health: 10
+    damage: 10
+    attackSpeed: 4
+    attackRange: 1
+    speed: 20
+    cost: 3

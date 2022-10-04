@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f32cf06e36242e408bed641b3997d51, type: 3}
+  m_Name: Templar
+  m_EditorClassIdentifier: 
+  textFile: {fileID: 4900000, guid: 95b88993ff5e96546a30410f1bf6c541, type: 3}
+  description: Heavy units/Tanks. The highest order of knights. Veterans of war that
+    serve none but Queen Xolonia.
+  allyImage: {fileID: 21300000, guid: 81b616caac0ef7845aeb17143544e641, type: 3}
+  enemyImage: {fileID: 21300000, guid: 81b616caac0ef7845aeb17143544e641, type: 3}
+  imageScale: 1
+  sellable: 1
+  attackSound: HardSwing
+  deathSound: 
+  upgradeSound: 
+  onSpawn: 22
+  onKill: 23
+  onDeath: 24
+  onUpgrade: 25
+  onSell: 26
+  levels:
+  - health: 30
+    damage: 5
+    attackSpeed: 1
+    attackRange: 3
+    speed: 1
+    cost: 4
+  - health: 40
+    damage: 10
+    attackSpeed: 1
+    attackRange: 3
+    speed: 3
+    cost: 3
+  - health: 50
+    damage: 20
+    attackSpeed: 1.5
+    attackRange: 4
+    speed: 5
+    cost: 6
