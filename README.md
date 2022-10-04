@@ -1,5 +1,6 @@
 # 10SecondDefence
  A tower defence game created for the Ludum Dare 51 Game Jam
+ https://ldjam.com/events/ludum-dare/51/10-second-defence
 
 # Controls:
 - WASD -> Move camera around the map
